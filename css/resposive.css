@@ -1,0 +1,51 @@
+@media screen and (max-width: 1225px) {
+    main nav .navMain, main #content{
+        grid-template-columns: 250px 500px !important;
+    }
+
+    main nav .navMain .userActions{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    main nav .navMain{
+        grid-template-columns: 200px 300px !important;
+    }
+
+    main #content{
+        grid-template-columns: 520px !important;
+    }
+
+    main #content .left{
+        grid-row: 2/4;
+    }
+}
+
+@media screen and (max-width: 640px){
+    main nav .navMain, main #content{
+        grid-template-columns: 325px !important;
+    }
+
+    main nav .navMain .navMenu{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 430px){
+    main nav .navMain{
+        grid-template-columns: 280px !important;
+    }
+
+    main #content{
+        grid-column: 1/3;
+    }
+
+    main aside{
+        display: none !important;
+    }
+
+    main footer{
+        grid-column: 1/3;
+    }
+}

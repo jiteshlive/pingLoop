@@ -1,0 +1,45 @@
+:root {
+    --primary: #6200ea;
+    --primary-variant: #3700b3;
+    --secondary: #03dac6;
+    --background: #ffffff;
+    --surface: #f5f5f5;
+    --error: #b00020;
+  
+    /* Text Colors */
+    --on-primary: #ffffff;
+    --on-secondary: #000000;
+    --on-background: #000000;
+    --on-surface: #000000;
+    --on-error: #ffffff;
+  
+    /* Other UI Elements */
+    --button-bg: var(--primary);
+    --button-text: var(--on-primary);
+    --input-bg: #eeeeee;
+    --input-text: #000000;
+    --border-color: #dddddd;
+}
+
+[data-theme='darkMode']{
+    --primary: #bb86fc; /* Primary brand color */
+    --primary-variant: #3700b3;
+    --secondary: #03dac6; /* Accent color */
+    --background: #121212; /* Main background */
+    --surface: #1e1e1e; /* Card & section background */
+    --error: #cf6679;
+    
+    /* Text Colors */
+    --on-primary: #000000; /* Text on primary elements */
+    --on-secondary: #000000; 
+    --on-background: #ffffff; /* Default text */
+    --on-surface: #ffffff;
+    --on-error: #000000;
+  
+    /* Other UI Elements */
+    --button-bg: var(--primary);
+    --button-text: var(--on-primary);
+    --input-bg: #2a2a2a;
+    --input-text: #ffffff;
+    --border-color: #333333;
+}

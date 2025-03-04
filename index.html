@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="darkMode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pingLoop</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/5b0283528d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <div id="sideToggle">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <div class="navMain">
+                <h1><span style="font-weight: normal;">ping</span>Loop</h1>
+                <div class="navMenu">
+                    <div class="link active"><i class="fa-solid fa-leaf"></i></div>
+                    <div class="link"><i class="fa-regular fa-message"></i></div>
+                    <div class="link"><i class="fa-regular fa-circle-user"></i></div>
+                    <div class="link"><i class="fa-regular fa-envelope"></i></div>
+                </div>
+                <div class="userActions">
+                    <div class="link"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="divider"></div>
+                    <div class="link"><i class="fa-regular fa-bell"></i></div>
+                </div>
+            </div>
+        </nav>
+        <aside>
+            <div>
+                <div class="link"><i class="fa-solid fa-square-binary"></i></div>
+                <div class="link"><i class="fa-solid fa-cloud"></i></div>
+                <div class="link"><i class="fa-solid fa-sitemap"></i></div>
+            </div>
+            <div class="link"><i class="fa-solid fa-cog"></i></div>
+        </aside>
+        <div id="content">
+            <div class="left">
+                <div class="borderBox">
+                    <h3>I'm Following <span style="font-weight: normal; color: var(--primary);">0</span></h3>
+                </div>
+            </div>
+            <div class="center">
+                <h2>Activity Feed</h2>
+                <div class="borderBox" id="createPost">
+                    <div class="upper">
+                        <button id="createPostBtn"><i class="fa-solid fa-leaf"></i></button>
+                        <textarea name="" id="createPostText" placeholder="What's on your mind?"></textarea>
+                    </div>
+                    <div class="lower">
+                        <i class="fa-solid fa-bold"></i>
+                        <i class="fa-solid fa-italic"></i>
+                        <i class="fa-solid fa-underline"></i>
+                        <i class="fa-solid fa-strikethrough"></i>
+                    </div>
+                </div>
+                <h3>All Updates</h3>
+                <div id="postsContainer">
+                    <div class="post borderBox">
+                        <div class="details">
+                            <div id="ownerDP">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="nameDate">
+                                <span id="ownerName">Jitesh</span>
+                                &bull;
+                                <span id="uploadDate">1yr</span>
+                            </div>
+                        </div>
+                        <div class="container">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sit rerum nesciunt, necessitatibus ipsam et a aliquid vitae ad soluta. Architecto molestiae commodi, illo iure qui omnis est ut earum!
+                        </div>
+                        <div class="actions">
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-comment"></i>
+                        </div>
+                    </div>
+                    <div class="post borderBox">
+                        <div class="details">
+                            <div id="ownerDP">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="nameDate">
+                                <span id="ownerName">Jitesh</span>
+                                &bull;
+                                <span id="uploadDate">1yr</span>
+                            </div>
+                        </div>
+                        <div class="container">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae quod dignissimos similique beatae repellendus, nemo animi cum ad rem alias illo blanditiis architecto sequi perferendis nobis, dolor, officiis sapiente.
+                        </div>
+                        <div class="actions">
+                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-comment"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="borderBox">
+                    <h3>Recently Active Members</h3>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>© 2025 pingLoop. All rights reserved.</p>
+        </footer>
+    </main>
+    <div id="imaginary"></div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
